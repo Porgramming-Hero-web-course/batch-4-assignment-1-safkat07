@@ -27,7 +27,7 @@ printUserId(123);      // Works with a number
 printUserId("ABC123"); // Works with a string
 ```
 
-With union types, you can avoid creating separate functions or complex checks, making the code easier to write and maintain.
+With union types, we can avoid creating separate functions or complex checks, making the code easier to write and maintain.
 
 
 ## What are Intersection Types??
@@ -66,4 +66,4 @@ Intersection types are useful when we need an object that combines multiple sets
 
 ## Conclusion
 
-Union and Intersection types in TypeScript provide powerful ways to manage complex data types, adding flexibility and control to your code. By mastering these concepts, you can write more robust, adaptable, and type-safe applications.
+Union and Intersection types in TypeScript provide powerful ways to manage complex data types, adding flexibility and control to our code. By mastering these concepts, we can write more robust, adaptable, and type-safe applications.
