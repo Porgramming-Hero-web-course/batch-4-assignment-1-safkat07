@@ -6,7 +6,10 @@ Typescript is superset of our very popular Javascript. In past time we used to c
 
 Union types allow a variable to hold more than one type. we use | to use the union type. in simple term it's says, either this type or this type, otherwise no types. For example:
 
-```typescript let carModel: string | number; carModel = "Toyota T30"; carModel = 333; ```
+```typescript
+let carModel: string | number;
+carModel = "Toyota T30";
+carModel = 333; ```
 
 In this example we can clearly see that , in the carModel variable we can store either string type data or number type data. We can not use here boolean, array or any others types of data.
 
