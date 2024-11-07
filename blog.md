@@ -61,6 +61,7 @@ Intersection types are useful when we need an object that combines multiple sets
 
 ## Union vs. Intersection: Key Differences
 &#9675; Union Types (|): Either one type or another. Use union types when a value could be one of several types.
+<br>
 &#9675; Intersection Types (&): Combines multiple types. Use intersection types when a value must meet multiple type requirements.
 
 ## Conclusion
