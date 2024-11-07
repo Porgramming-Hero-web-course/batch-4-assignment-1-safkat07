@@ -9,8 +9,8 @@ Union types allow a variable to hold more than one type. we use | to use the uni
 ```typescript
 let carModel: string | number;
 carModel = "Toyota T30";
-carModel = 333; ```
-
+carModel = 333; 
+```
 In this example we can clearly see that , in the carModel variable we can store either string type data or number type data. We can not use here boolean, array or any others types of data.
 
 ## Why are union Types Usefull?
@@ -25,5 +25,6 @@ function printUserId(id: string | number) {
 
 printUserId(123);      // Works with a number
 printUserId("ABC123"); // Works with a string
-git
+```
+
 With union types, you can avoid creating separate functions or complex checks, making the code easier to write and maintain.
