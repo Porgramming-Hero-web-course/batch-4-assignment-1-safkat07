@@ -28,3 +28,41 @@ printUserId("ABC123"); // Works with a string
 ```
 
 With union types, you can avoid creating separate functions or complex checks, making the code easier to write and maintain.
+
+
+## What are Intersection Types??
+
+Intersection types allow a variable to require multiple types simultaneously, meaning the variable must satisfy the requirements of each type. Intersection types are declared with the & (ampersand) symbol, indicating "type A and type B."
+
+
+```typescript
+interface Car {
+    model: string;
+}
+
+interface Electric {
+    horsePower: number;
+}
+
+type ElectricCar = Car & Electric;
+
+const myCar: ElectricCar = {
+    model: "Tesla Model 3",
+    horsePower: 350
+};
+```
+
+In this example we must ensure that type ElectricCar should have both Car and Electric type property.
+
+
+## Why are Intersection Types Useful?
+
+Intersection types are useful when we need an object that combines multiple sets of properties, ensuring the object meets all necessary requirements.
+
+## Union vs. Intersection: Key Differences
+&#9675; Union Types (|): Either one type or another. Use union types when a value could be one of several types.
+&#9675; Intersection Types (&): Combines multiple types. Use intersection types when a value must meet multiple type requirements.
+
+## Conclusion
+
+Union and Intersection types in TypeScript provide powerful ways to manage complex data types, adding flexibility and control to your code. By mastering these concepts, you can write more robust, adaptable, and type-safe applications.
