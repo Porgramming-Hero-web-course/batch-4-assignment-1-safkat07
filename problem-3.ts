@@ -4,17 +4,13 @@
         const newStr = sentense.toLowerCase().split(/[ !]/).filter(item => item !== '')
 
         for (let i = 0; i < newStr.length; i++) {
-            if (newStr[i].startsWith(word)) {
+            if (newStr[i] == word) {
                 count = count + 1
             }
         }
         return count;
 
     }
-
-    console.log(countWordOccurrences("TypeScript is great. I love successfully", "success"))
-
-
 
     //
 }
