@@ -1,6 +1,6 @@
 # The significance of union and intersection types in Typescript.
 
- --> Typescript is superset of our very popular Javascript. In past time we used to create web apps using Javascript. but in modern world, it is more complex to handle millions of data. we often struggle with Javascript to check the type of data and handle the way it should be. Here comes our ultimate savior Mr.Typescript. The type checker guy. Typescript offers tools that take our familiar Javascript to the next level. Among them, Union and Intersection types stands out as essential concepts that add flexibility and control to how we work with types in Typescript.
+Typescript is superset of our very popular Javascript. In past time we used to create web apps using Javascript. but in modern world, it is more complex to handle millions of data. we often struggle with Javascript to check the type of data and handle the way it should be. Here comes our ultimate savior Mr.Typescript. The type checker guy. Typescript offers tools that take our familiar Javascript to the next level. Among them, Union and Intersection types stands out as essential concepts that add flexibility and control to how we work with types in Typescript.
 
 ## What are Union Types??
 
@@ -9,7 +9,7 @@ Union types allow a variable to hold more than one type. we use | to use the uni
 ```typescript
 let carModel: string | number;
 carModel = "Toyota T30";
-carModel = 333;
+carModel = 333;```
 
 In this example we can clearly see that , in the carModel variable we can store either string type data or number type data. We can not use here boolean, array or any others types of data.
 
