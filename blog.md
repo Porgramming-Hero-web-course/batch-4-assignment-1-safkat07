@@ -25,5 +25,5 @@ function printUserId(id: string | number) {
 
 printUserId(123);      // Works with a number
 printUserId("ABC123"); // Works with a string
-
+git
 With union types, you can avoid creating separate functions or complex checks, making the code easier to write and maintain.
